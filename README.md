@@ -6,19 +6,24 @@ This repo contains an extremely basic client for working with the [Boundary](htt
 * Bundler
 
 ## Installation
-1. Clone down the repo:
+Clone down the repo:
+
 `git clone git://github.com/thbishop/boundary_streaming_api_client_example.git`
 
-2. Change into the new directory
+Change into the new directory
+
 `cd boundary_streaming_api_client_example`
 
-3. Install dependencies
+Install dependencies
+
 `bundle install`
 
 ## Usage
-1. Copy the config example file and fill in the details for your Boundary org ID and API key.
+Copy the config example file and fill in the details for your Boundary org ID and API key.
+
 `cp config.txt.example config.txt`
-2. Run the client with the config file
+Run the client with the config file
+
 `export $(cat config.txt) && ruby client.rb`
 
 
