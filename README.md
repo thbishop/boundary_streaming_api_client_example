@@ -13,12 +13,12 @@ git clone git://github.com/thbishop/boundary_streaming_api_client_example.git
 
 Change into the new directory
 ```shell
-cd boundary_streaming_api_client_example`
+cd boundary_streaming_api_client_example
 ```
 
 Install dependencies
 ```shell
-bundle install`
+bundle install
 ```
 
 ## Usage
